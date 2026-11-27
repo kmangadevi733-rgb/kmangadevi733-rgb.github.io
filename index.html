@@ -1,57 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[Katta Mangadevi] | Data Analyst Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f6f9; color: #333; }
-    header { background: #1b365d; color: #fff; padding: 40px 20px; text-align: center; }
-    header h1 { margin: 0; font-size: 32px; }
-    header p { margin: 10px 0 20px; font-size: 18px; color: #cbd5e1; }
-    .btn { background: #008080; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 5px; display: inline-block; }
-    .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
-    .card { background: #fff; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    h2 { color: #1b365d; border-bottom: 2px solid #008080; padding-bottom: 8px; }
-    .skills span { background: #e2e8f0; padding: 6px 12px; border-radius: 4px; display: inline-block; margin: 5px 5px 0 0; font-weight: bold; }
-    img { max-width: 100%; border-radius: 6px; margin-top: 15px; border: 1px solid #ddd; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katta Mangadevi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts (Poppins) -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
 </head>
+
 <body>
 
-<header>
-  <h1>[Katta Mangadevi]</h1>
-  <p>Aspiring Data Analyst | Excel • SQL • Power BI • Python</p>
-  <a href="[https://www.linkedin.com/in/katta-mangadevi22U51A6733]" class="btn" target="_blank">LinkedIn</a>
-  <a href="[https://github.com/kmangadevi733-rgb]" class="btn" target="_blank">GitHub</a>
-  <a href="mailto:[k.mangadevi733@gmail.com]" class="btn">Contact Me</a>
-</header>
+    <!-- నావిగేషన్ బార్ -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Mangadevi<span>.katta</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-btn">Hire Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="container">
-  <div class="card">
-    <h2>About Me</h2>
-    <p>Detail-oriented aspiring Data Analyst based in Hyderabad with hands-on experience in data cleaning, exploratory data analysis, and interactive dashboard reporting using MS Excel, SQL, and Power BI.</p>
-  </div>
+    <!-- కొత్త స్ప్లిట్ డిజైన్ హీరో సెక్షన్ -->
+    <section id="home" class="hero">
+        <!-- బ్యాక్‌గ్రౌండ్ డెకరేటివ్ సర్కిల్స్ -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
 
-  <div class="card">
-    <h2>Technical Skills</h2>
-    <div class="skills">
-      <span>MS Excel (Pivot Tables, XLOOKUP)</span>
-      <span>Power BI (DAX, Power Query)</span>
-      <span>SQL (Joins, CTEs, Window Functions)</span>
-      <span>Python (Pandas, NumPy)</span>
-      <span>Data Cleaning & Visualization</span>
-    </div>
-  </div>
+        <div class="hero-container">
+            <!-- ఎడమ వైపు: టెక్స్ట్ మరియు బటన్స్ -->
+            <div class="hero-left">
+                <span class="badge">👋 Welcome to my portfolio</span>
+                <h1>Hi, I'm <span class="highlight">Katta Mangadevi</span></h1>
+                <h3>Data Analyst & Software Developer</h3>
+                <p class="description">
+                    I am a passionate Computer Science and Engineering (Data Science) student with a strong interest
+                    in data analytics, machine learning, and web development. I enjoy building intelligent solutions
+                    and creating user-friendly applications that solve real-world problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Explore Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="resume.pdf" download class="btn secondary-btn"><i class="fas fa-download"></i> Resume</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://kmangadevi733-rgb.github.io/" target="_blank" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/katta-mangadevi/" target="_blank" title="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:k.mangadevi733@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
 
-  <div class="card">
-    <h2>Projects</h2>
-    <h3>1. Superstore Sales & Shipping Performance Dashboard</h3>
-    <p><strong>Tools:</strong> MS Excel, Power BI</p>
-    <p>Cleaned 9,800+ retail orders, engineered shipping duration metrics, and built an interactive Power BI dashboard with KPI cards and dynamic slicers to analyze regional sales and delivery speed (~4 days average).</p>
-    <a href="[https://github.com/kmangadevi733-rgb/Superstore-Sales-Analysis-PowerBI]" class="btn" target="_blank">View Project on GitHub</a>
-  </div>
-</div>
+            <!-- కుడి వైపు: మోడ్రన్ ప్రొఫైల్ & స్కిల్స్ కార్డ్ డిజైన్ -->
+            <div class="hero-right">
+                <div class="profile-card">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="avatar-box">
+                        <!-- ఇక్కడ మీ ఫోటో పెట్టుకోవచ్చు, ప్రస్తుతానికి ఐకాన్ ఉంది -->
+                        <img src="profile.jpeg" alt="Profile Image" class="profile-img">
+                        <h4>Katta Mangadevi</h4>
+                        <p>B.Tech (CSE - Data Science)</p>
+                    </div>
+                    <div class="floating-tags">
+                        <span class="tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="tag"><i class="fas fa-database"></i> SQL & Data</span>
+                        <span class="tag"><i class="fas fa-code"></i> HTML/CSS</span>
+                        <span class="tag"><i class="fas fa-brain"></i> ML & AI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2. నా గురించి (About Me Section) -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Get To Know Me</span>
+                <h2>About <span>Me</span></h2>
+            </div>
 
+            <div class="about-grid">
+                <!-- ఎడమ వైపు: మీ పరిచయం -->
+                <div class="about-text">
+                    <h3>Aspiring Data Analyst & Software Developer</h3>
+                    <p>
+                        I am a Computer Science and Engineering (Data Science) graduate from DRK College of Engineering
+                        and Technology. I have a strong passion for analyzing data, building intelligent machine
+                        learning models, and developing clean, user-friendly web applications.
+                    </p>
+                    <p>
+                        With hands-on experience in projects like Automatic Number Plate Recognition (ANPR) and a keen
+                        interest in solving real-world problems, I am eager to contribute to innovative tech teams and
+                        grow continuously.
+                    </p>
+                </div>
+
+                <!-- కుడి వైపు: హైలైట్ కార్డ్స్ (Education, Experience, Certifications) -->
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="icon-box indigo"><i class="fas fa-graduation-cap"></i></div>
+                        <div>
+                            <h4>Education</h4>
+                            <p>B.Tech in CSE (Data Science)</p>
+                            <span>DRK College of Engineering & Technology (2022–2026)</span>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="icon-box teal"><i class="fas fa-briefcase"></i></div>
+                        <div>
+                            <h4>Experience</h4>
+                            <p>Consultant - Nextgenpros</p>
+                            <span>Strong background in operations & problem solving</span>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="icon-box purple"><i class="fas fa-certificate"></i></div>
+                        <div>
+                            <h4>Certifications</h4>
+                            <p>Artificial Intelligence & Programming</p>
+                            <span>IBM SkillsBuild & TCS iON Certified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. నైపుణ్యాలు (Skills Section) -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">My Technical Toolkit</span>
+                <h2>Technical <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <!-- కార్డ్ 1: ప్రోగ్రామింగ్ -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Python, html, css and javascript</span>
+                        <span class="skill-pill">SQL</span>
+                        <span class="skill-pill">Data Analysis</span>
+                        <span class="skill-pill">DSA</span>
+                    </div>
+                </div>
+
+                <!-- కార్డ్ 2: వెబ్ డెవలప్‌మెంట్ -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Technologies</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">HTML5</span>
+                        <span class="skill-pill">CSS3</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">Responsive Design</span>
+                    </div>
+                </div>
+
+                <!-- కార్డ్ 3: డేటా & AI -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Data & AI/ML</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">MySQL</span>
+                        <span class="skill-pill">Data Science</span>
+                        <span class="skill-pill">Machine Learning</span>
+                        <span class="skill-pill">OpenCV & YOLO</span>
+                    </div>
+                </div>
+
+                <!-- కార్డ్ 4: టూల్స్ & ప్లాట్‌ఫారమ్స్ -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Git & GitHub</span>
+                        <span class="skill-pill">VS Code</span>
+                        <span class="skill-pill">Google Colab</span>
+                        <span class="skill-pill">AI Productivity Tools</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 4. ప్రాజెక్ట్స్ సెక్షన్ (Projects Section) -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">My Completed Work</span>
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- ప్రాజెక్ట్ 1: Superstore Sales Analysis (Power BI) -->
+                <div class="project-card">
+                    <div class="project-banner banner-1">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Power BI</span>
+                            <span>Excel</span>
+                            <span>SQL</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <h3>Superstore Sales Analysis Dashboard</h3>
+                        <p>
+                            Built an interactive Power BI dashboard analyzing retail sales data across regions,
+                            categories, and customer segments to uncover profit trends, discount impacts, and actionable
+                            business insights.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/kmangadevi733-rgb/Superstore-Sales-Analysis-PowerBI"
+                                target="_blank" class="link-btn"><i class="fab fa-github"></i>
+                                GitHub Repo</a>
+                            <a href="#" class="link-btn demo"><i class="fas fa-external-link-alt"></i> View
+                                Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ప్రాజెక్ట్ 2: Smart Auto-Billing System (YOLOv8) -->
+                <div class="project-card">
+                    <div class="project-banner banner-2">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>YOLOv8</span>
+                            <span>Streamlit</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <h3>Smart Fruits & Veg Auto-Billing System</h3>
+                        <p>
+                            Developed a real-time object detection web application using YOLOv8 and Streamlit that
+                            identifies fruits and vegetables through a camera feed and automatically generates an
+                            itemized bill.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/kmangadevi733-rgb/smart-auto-billing-yolov8" target="_blank"
+                                class="link-btn"><i class="fab fa-github"></i>
+                                Source Code</a>
+                            <a href="#" class="link-btn demo"><i class="fas fa-external-link-alt"></i> Live App</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ప్రాజెక్ట్ 3: Personal Portfolio Website -->
+                <div class="project-card">
+                    <div class="project-banner banner-3">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <h3>Personal Developer & Analyst Portfolio</h3>
+                        <p>
+                            Designed and coded a modern, responsive personal portfolio website from scratch to showcase
+                            my data analytics dashboards, AI/ML applications, and technical skill set.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/kmangadevi733-rgb/kmangadevi733-rgb.github.io" target="_blank"
+                                class="link-btn"><i class="fab fa-github"></i>
+                                Source Code</a>
+                            <a href="#home" class="link-btn demo"><i class="fas fa-external-link-alt"></i> Live Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. కాంటాక్ట్ సెక్షన్ (Contact Section) -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Get In Touch</span>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- ఎడమ వైపు: కాంటాక్ట్ వివరాలు -->
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I am currently looking for entry-level opportunities in Data Analytics, Python Development, and
+                        Software Engineering. Feel free to reach out!</p>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>k.mangadevi733@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Hyderabad, Telangana, India</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>https://linkedin.com/in/katta-mangadevi</span>
+                    </div>
+                </div>
+
+                <!-- కుడి వైపు: మెసేజ్ ఫారమ్ -->
+                <form class="contact-form" action="mailto:k.mangadevi733@email.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ఫుటర్ (Footer) -->
+    <footer>
+        <p>© 2026 Katta Mangadevi. Designed & Built with ❤️ using HTML & CSS.</p>
+    </footer>
 </body>
+
 </html>
